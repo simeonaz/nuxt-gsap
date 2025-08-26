@@ -1,16 +1,31 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt-gsap",
+  "version": "1.0.0",
+  "description": "A Nuxt 4 project integrating GSAP for advanced animations and transitions.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simeonaz/nuxt-gsap.git"
+  },
   "type": "module",
   "private": true,
+  "author": {
+    "name": "Siméon Azogbonon",
+    "email": "simeonazogbonon@gmail.com",
+    "url": "https://simeonaz.netlify.app"
+  },
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --port 5173",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@tailwindcss/vite": "^4.1.12",
+    "gsap": "^3.13.0",
     "nuxt": "^4.0.3",
+    "tailwindcss": "^4.1.12",
     "vue": "^3.5.20",
     "vue-router": "^4.5.1"
   }
