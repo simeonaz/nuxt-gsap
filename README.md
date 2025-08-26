@@ -1,6 +1,13 @@
-# Nuxt Minimal Starter
+# Nuxt 4 + GSAP Starter
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This project demonstrates how to integrate [GSAP (GreenSock Animation Platform)](https://greensock.com/gsap/) with [Nuxt 4](https://nuxt.com/) to create smooth and advanced animations. It includes a simple animated title component to showcase GSAP's capabilities.
+
+## Features
+
+- **Nuxt 4**: A modern framework for building Vue.js applications.
+- **GSAP**: A powerful JavaScript library for creating high-performance animations.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Google Fonts**: Pre-configured with Roboto, Inter, and Lato fonts.
 
 ## Setup
 
@@ -18,58 +25,3 @@ yarn install
 
 # bun
 bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
