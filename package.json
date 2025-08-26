@@ -1,7 +1,7 @@
 {
   "name": "nuxt-gsap",
   "version": "1.0.0",
-  "description": "A Nuxt 4 project integrating GSAP for advanced animations and transitions.",
+  "description": "A Nuxt 4 project integrating GSAP for advanced animations.",
   "repository": {
     "type": "git",
     "url": "https://github.com/simeonaz/nuxt-gsap.git"
